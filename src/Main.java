@@ -1,7 +1,9 @@
-import ui.CalculadoraConsola;
+import ui.CalculadoraGUI;
+
+import javax.swing.SwingUtilities;
 
 public class Main {
     public static void main(String[] args) {
-        new CalculadoraConsola().iniciar();
+        SwingUtilities.invokeLater(CalculadoraGUI::new);
     }
 }

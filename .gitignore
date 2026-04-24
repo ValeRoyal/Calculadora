@@ -16,6 +16,6 @@ out/
 
 # IntelliJ
 .idea/
-
+*.iml
 # Archivos del sistema
 .DS_Store
